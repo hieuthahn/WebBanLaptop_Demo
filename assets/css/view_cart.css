@@ -1,0 +1,226 @@
+.app__container {
+    background-color: #f5f5f5;
+    padding: 30px 0px;
+}
+
+/* Address selection */
+.address-selection__container {
+    background-color: var(--white-color);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 2px;
+    color: var(--text-color);
+}
+
+.address-selection__header {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.address-selection__heading-icon {
+    font-size: 1.6rem;
+    color: var(--primary-color);
+    margin-right: 6px;
+}
+
+.address-selection__heading {
+    margin: 0;
+    font-size: 1.6rem;
+    color: var(--primary-color);
+
+}
+
+.address-selection__title {
+    font-size: 1.4rem;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.address-selection__title-name {
+    padding-left: 36px;
+}
+
+.address-selection__location-list {
+    margin: 10px 0;
+    list-style: none;
+    padding-left: 0px;
+    font-size: 1.4rem;
+}
+
+.address-selection__item {
+    margin-bottom: 14px;
+}
+
+.address-selection__item-icon {
+    font-size: 1.4rem;
+    margin-right: 6px;
+    color: var(--primary-color);
+}
+
+.address-selection__btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.address-selection__btn-new-address {
+    margin-right: 10px;
+}
+
+/* Product in cart */
+
+.cart-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+    overflow: hidden;
+}
+
+.cart__header {
+    background-color: var(--white-color);
+    font-size: 1.4rem;
+    padding: 12px 44px;
+    margin-bottom: 10px;
+}
+
+.cart__heading-product-name {
+    color: rgba(0,0,0,.8);
+}
+
+.cart__heading-product-price {
+    color: #888;
+}
+
+.cart__heading-product-quantity {
+    color: #888;
+}
+
+.cart__heading-product-total-price {
+    color: #888;
+}
+
+.cart__heading-product-remove {
+    color: #888;
+}
+
+
+.cart__section {
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+
+.cart__section-items {
+    background-color: var(--white-color);
+    padding: 6px 18px;
+    border-bottom: 1px solid rgba(0,0,0,.09);
+}
+
+.cart-item__content-describe {
+    display: flex;
+    align-items: center;
+}
+
+.cart-item__content-checkbox {
+    width: 18px;
+    height: 18px;
+    /* border-color: var(--primary-color);
+    background: var(--primary-color);
+    background-color: var(--primary-color); */
+}
+
+.cart-item-picture {
+    padding-top: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 0px;
+    height: 80px;
+    width: 80px;
+}
+
+.cart-item__content-name {
+    margin: 0px;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.cart-item__content-name-link {
+    text-decoration: none;
+    color: rgba(0,0,0,.8);
+
+}
+
+.cart-item__content-detail {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 60px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    align-items: center;
+    color: var(--text-color);
+}
+
+
+
+.cart-item__content-detail-total-price {
+    padding-right: 40px;
+}
+
+.cart-item__content-detail-actions {
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+/* Pay */
+.cart__footer {
+    background-color: var(--white-color);
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 18px;
+    font-size: 1.4rem;
+    border-radius: 2px;
+}
+
+.cart__footer-select {
+    display: flex;
+    align-items: center;
+}
+
+.cart__footer-view-price-pay {
+    display: flex;
+    align-items: center;
+}
+
+.cart__footer-checkbox {
+    height: 18px;
+    width: 18px;
+    margin-right: 4px;
+}
+
+.cart__footer-btn-check-all {
+    background: none;
+    border: none;
+    align-items: center;
+    color: var(--text-color);
+}
+
+.cart__footer-text {
+    font-size: 1.2rem;
+    color: var(--text-color);
+}
+
+.cart__footer-total-price {
+    padding-right: 30px;
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.cart__footer-btn-pay {
+    width: 210px;
+    height: 50px;
+}
+

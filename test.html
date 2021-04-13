@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #lb1 {
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form__register" method="post" onsubmit="return check()">
+        <div class="auth-form__form">
+            <label for="" id="lb1" style="color: orange; font-size: 16px;"></label>
+            <div class="auth-form_group">
+                <input type="text" id="input__register-name" class="auth-form__input" placeholder="Tên đăng nhập"/>
+            </div>
+            <div class="auth-form_group">
+                <input type="password" id="input__register-pw" class="auth-form__input" placeholder="Mật khẩu"/>
+            </div>
+            <div class="auth-form_group">
+                <input type="password" id="input__register-pw-retype" class="auth-form__input" placeholder="Nhập lại mật khẩu"/>
+            </div>
+        </div>
+        <div class="auth-form__controls">
+            <button id="btn__register-back" class="btn--normal btn auth-form__controls-back" onclick="index.html" onsubmit="return true">TRỞ LẠI</button>
+            <button id="btn__register-key" class="btn btn--primary" onclick="btn()">ĐĂNG KÝ</button>
+        </div>
+    </form>
+
+    <script type="text/javascript">
+        function check() {
+            var name = document.getElementById("input__register-name").value;
+            var pw = document.getElementById("input__register-pw").value;
+            var pw_retype = document.getElementById("input__register-pw-retype").value;
+            if (name == "")
+            {
+                alert("Bạn cần nhập họ tên");
+                return false;
+            }
+            if (pw == "" || pw_retype == "")
+            {
+                alert("Bạn cần nhập mật khẩu");
+                return false;
+            }
+            if (pw_retype != pw)
+            {
+                alert("Mật khẩu nhập lại không trùng với mật khẩu đã nhập");
+                return false;
+            }
+            if (pw.length < 6)
+            {
+                alert("Mật khẩu phải đủ 6 ký tự trở trên");
+                return false;
+            }
+            return true;
+        }
+
+        function btn()
+        {
+            var lb1 = document.getElementById("lb1");
+            lb1.innerHTML = "Dang ki thanh cong";
+            setTimeout
+        }
+    </script>
+</body>
+</html>

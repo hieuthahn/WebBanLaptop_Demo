@@ -122,6 +122,7 @@ function addStatusCart() {
     document.getElementById("has-cart-noti").style.display = 'block';
     document.getElementById("has-cart-list").style.display = 'block';
     document.getElementById("has-cart-view").style.display = 'block';
+    alert("Đã thêm vào giỏ hàng);
 }
 
 function addItemToCart(title, price, imageSrc, quantity) {

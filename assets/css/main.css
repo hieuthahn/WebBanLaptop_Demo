@@ -882,12 +882,13 @@
 .header__search-history {
     position: absolute;
     z-index: 1;
-    top: 14.6%;
-    width: 46%;
+    top: 12%;
+    width: 50%;
     height: auto;
     background-color: var(--white-color);
     border-radius: 2px;
     box-shadow: 0 2px 5px rgb(180, 180, 180);
+    z-index: 999;
     display: none;
 }
 
